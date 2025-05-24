@@ -1,0 +1,55 @@
+MVP1                                    
+	vaide pero no guardo ok maiul ni telefono en el campo correspondiente C8ntactos)
+	Mejorar info del postulante
+	Mejorar info del analisis
+		- tengo los datos mostrar(teleono mail)
+		- no ve los datos del CV en open ai y deberia ROBERTO OLIVERI ANALISTA DE PROCE SOS  Entre Ríos, Argentina |  oliveriroberto1@gmail.com |  https://surl.li/tmlyiu |  3454161122 PERFIL PROFESIONAL Analista de Procesos con experiencia en relevamiento, modelado de procesos y análisis de datos. Apasionado por la tecnología, busco optimizar procesos y mejorar la toma de decisiones estratégicas. EDUCACIÓN Universidad Tecnológica Nacional | Ingeniería Industrial (2018 - Actu a lidad ) Adeudo Proyecto Final. Colegio San José Adoratrices | Bachiller en Ciencias Sociales y Humanidades Participación y reconocimientos en competencias de Matemáticas. Reconocimiento en el área Ciencias Sociales y Humanidades y en la de Química. HABILIDADES ✔ Office (Avanzado) ✔ SQL, Power BI, Bizagi, BPMN (Intermedio) ✔ AutoCAD, Inventor, Jira, Grafana (Básico) HABILIDADES BLANDAS ✔ Liderazgo y trabajo en equipo ✔ Pensamiento crítico y planificación ✔ Gestión del tiempo y aprendizaje continuo IDIOMAS Inglés: Intermedio | Alemán: Básico EXPERIENCIA LABORAL Analista Funcional | DILFER SA | 2022 – 2025 • Relevamiento y análisis de requerimientos. • Modelado de procesos con BPMN. • Consultas SQL y dashboards en Power BI. • Testing funcional y soporte en implementación. • Capacitació n y documentación. • Liderazgo de proyectos en la industria financiera. Ayudante deCátedra deCostos y Presupuestos | UTN | 2022 - Actualidad • Diseño de ejercicios y clases dinámicas. • Evaluación y retroalimentación. • Asistencia a estudiantes. CERTIFICACIONES - Power BI - Santander Open Academy - Negociación - Santander Open Academy - DAI Gestión Contable – Finnegans - Gestión Digital de Negocios – Finnegans - Learn English Select (A2) - British Council (2021) - Autodesk Inventor 2020 – UTN LOGROS DESTACADOS• Reducción de tiempos en procesos en un 70%. • Implementación de dashboards para toma de decisiones.
+	Analisis de CV
+		X2- guardarlocomo parte de la salida-
+		X1- Data quality Engineer  Pablo MArtin- ⚠️ Formato no compatible: cv  PDF
+	0- gestion de users
+	8- Busqueda proactiva  Doy descripcion de puesto y busco entre todos los postulantes
+	9- El analisis es correcto? Pruebas y pruebas...ajustar gpt y temperatura
+	10- Limpiar Localstorage para reprocesar de ser necesario 
+	11- Persistir todo LOcalStorage en Base de Datos
+
+MVP2
+	X- Filtrar vacantes por logo
+	0- Controlar que el analysis.contactos traiga los telefonos y mails del CV
+	1- Boton Responder Entrevista-Cantidad de preguntas "13" hardcoded
+	2- Evaluación de Entrevistas y mostrarlo en modal de Postulantes al resultado
+		Mejorar prompting para generar preguntas mas complejas e incluso una pregunta que deba resolver con logica
+		Antes de generar la entreevista mostrar un modal que muestre la info que usara para generar la entrevista y permita agregar datos en ese momento para mejorar la calidad de las mismas
+		Evaluar contra Respuestas de Entrevistas confeccionadas en AITALENT contra Entrevista generada en AITALENT
+		Evaluar Entrevista creadas en AITALENT vs docs adjuntos de hiring (ENTREEVISTA-N.xxx) 
+	3- COMPARACION VACANTE vs POSTULANTES 
+		- Validar postulante mirando en urls (Behance, linkedin)- archivos anexos postulant.adjuntos (no ENTREVISTA-N.xxx)
+	4- Generar CV formato Sooft/one box para cualquiera
+	5- Poder Seleccionar que postulante reprocesar (full o parcial)
+	6- Paginado de vacantes 
+		mejorar controles para poder navergar mas facil
+		Busqueda debe seer de todo no lo de la pagina
+		Filtro debe ser de todo, no lo de la pagina
+	6- Paginado de Postulantes llega a 1000. si hay mas no se ven !
+	7- Reportes Varios
+		Informe candidato para Empresa cliente (Externo)
+		Informe Candidato para Operaciones (interno) 
+
+Anexo  -
+	Recordar: Frontend Component → Frontend Service → Backend Endpoint → Backend Service → OpenAI
+
+TERMINADO
+	Solo activas
+	Ver usaurios vs Reclutadores
+	X- Informar con el estado VAlidado si tiene o no tiene datos de contacto. (importante)  90% ok. pero muestra cosas que no
+	3- COMPARACION VACANTE vs POSTULANTES 
+		- Validar CV's leyendo CV, 
+		- Tomar mas datos de la vacante para comparar ((cultura de empresa, remoto, ubicacion, disponibilidad horaraia etc)
+						modalidadContratacion
+						modalidadTrabajo
+						nivelMinimoEducacion
+						tipoTrabajo
+						etc
+		- Tomar mas datos del postulante para comparar contra vacante				
+		
+	
